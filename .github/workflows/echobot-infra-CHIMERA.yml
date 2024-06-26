@@ -41,7 +41,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Login via Az module
-        uses: azure/login@v1
+        uses: azure/login@v2
         with:
           creds: ${{secrets.AZURE_CREDENTIALS_CHIMERA_BOT}}
           enable-AzPSSession: true
