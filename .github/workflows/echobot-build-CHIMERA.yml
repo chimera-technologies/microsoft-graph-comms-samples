@@ -33,7 +33,7 @@ jobs:
 
     steps:
     - name: test
-      run: echo ${{secrets.AZURE_CREDENTIALS_CHIMERA_BOT}}
+      run: echo "${{secrets.AZURE_CREDENTIALS_CHIMERA_BOT}}"
 
     # - uses: actions/checkout@v2
 
