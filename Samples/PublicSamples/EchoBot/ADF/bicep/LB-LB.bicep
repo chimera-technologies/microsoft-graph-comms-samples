@@ -141,16 +141,16 @@ resource LBalancerDiag 'Microsoft.Insights/diagnosticSettings@2021-05-01-preview
   scope: LBalancer
   properties: {
     workspaceId: OMSworkspaceID
-    logs: [
-      // {
-      //   category: 'LoadBalancerAlertEvent'
-      //   enabled: true
-      // }
-      // {
-      //   category: 'LoadBalancerProbeHealthStatus'
-      //   enabled: true
-      // }
-    ]
+    // logs: [
+    //   // {
+    //   //   category: 'LoadBalancerAlertEvent'
+    //   //   enabled: true
+    //   // }
+    //   // {
+    //   //   category: 'LoadBalancerProbeHealthStatus'
+    //   //   enabled: true
+    //   // }
+    // ]
     metrics: [
       {
         timeGrain: 'PT5M'
