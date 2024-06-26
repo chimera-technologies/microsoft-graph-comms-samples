@@ -146,10 +146,10 @@ resource LBalancerDiag 'Microsoft.Insights/diagnosticSettings@2021-05-01-preview
       //   category: 'LoadBalancerAlertEvent'
       //   enabled: true
       // }
-      {
-        category: 'LoadBalancerProbeHealthStatus'
-        enabled: true
-      }
+      // {
+      //   category: 'LoadBalancerProbeHealthStatus'
+      //   enabled: true
+      // }
     ]
     metrics: [
       {
