@@ -269,3 +269,4 @@ _site/
 appsettings.development.json
 *.development.pubxml
 *.original
+ignore/
