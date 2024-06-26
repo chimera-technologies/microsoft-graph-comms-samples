@@ -656,7 +656,7 @@
       "imageReference": {
         "publisher": "credativ",
         "offer": "Debian",
-        "sku": "8",
+        "sku": "3",
         "version": "latest"
       },
       "OS": "Linux",
